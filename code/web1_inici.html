@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Personal Shopper</title>
+    <title>Ferrocarrils de la Generalitat de Catalunya FGC</title>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
         h1 {
@@ -16,7 +16,7 @@
         }
         body {
             font-family: Poppins, sans-serif;
-            margin: 50px;
+            margin: 20px;
             background-color: #edd3ff;
             display: flex;
             justify-content: center;
@@ -46,40 +46,36 @@
         }
 
         input[type="submit"] {
-            background-color: #4a4b4b; 
-            color: #dddddd;
+            background-color: #95D602; 
+            color: #ffff;
             border: none;
             cursor: pointer;
         }
 
         input[type="submit"]:hover {
-            background-color: #a0a0a0; 
+            background-color: #95D602; 
         }
 
     </style>
 </head>
 <body>
-    <h1>WELCOME TO MY PERSONAL SHOPPER!</h1>
-    <img src="https://cdn-icons-png.flaticon.com/512/2649/2649383.png" alt="Imagen" width="180">
+    <h1>Benvingut a FGC </h1>
+    <img src="https://www.fgc.cat/wp-content/uploads/2020/06/ilustracion-tren-arboles.png" alt="Imagen" width="180">
     <br>
-    <h2>Making things easier</h2>
-    <p>Don't know how to combine or don't have time? We'll help you! The easiest place to shop with the expert guidance of our top advisers.</p>
+    <h2>Facilitant les coses</h2>
+    <p>No saps arribar al teu destí? <br> Selecciona'l i et mostrem la ruta</p>
     <br>
-    <h2>Get the latest looks</h2>
-    <p>Elevate your style with the hottest looks meticulously curated just for you</p>
-    <br>
-    <br>
-    <form action="/check_nif" method="post">
-        <label for="nif">Enter your NIF (DNI):</label>
-        <input type="text" id="nif" name="nif" required><br><br>
-        <input type="submit" value="Continue">
+    <form action="/check_estacio" method="post">
+        <label for="estacio">Introdueix el destí on vols arribar:</label><br>
+        <input type="text" id="estacio" name="estacio" required><br><br>
+        <input type="submit" value="Continuar">
     </form>
 </body>
 <style>
     body {
         font-family: Poppins, sans-serif;
         margin: 30px 100px 100px 100px;
-        background-color: #e6d4fd;
+        background-color: #fdf8ee;
     }
     header img {
         width: 30%;
