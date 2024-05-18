@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Piezas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #cce6ff;
+        }
+
+        .search-bar {
+            width: 100%;
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-input {
+            width: 60%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        .search-button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .search-button:hover {
+            background-color: #45a049;
+        }
+
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .catalog-item {
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .catalog-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Buscar...">
+        <button class="search-button">Buscar</button>
+    </div>
+
+    <div class="catalog">
+        <div class="catalog-item">
+            <img src="https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-elegante-joven-modelo-vistiendo-ropa-jeans-gafas-sol-hombre-moda_158538-5023.jpg" alt="Blue Jacket">
+        </div>
+        <div class="catalog-item">
+            <img src="https://cdn.siroko.com/products/65144c2951ba6/882/1156/crop_center.webp?v=1695832048" alt="Jersey de lana">
+        </div>
+        <div class="catalog-item">
+            <img src="https://img.ltwebstatic.com/images3_pi/2021/08/30/163029528333c3fa5809f051a55fb6abae142adb1b_thumbnail_720x.webp" alt="Pieza 3">
+        </div>
+        <div class="catalog-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBxGQkSxqjunkwiNGrPWJUGKiUE6i_0sd4OySo8QohnGxybrCJoRe7qfySOVAClIynU38&usqp=CAU" alt="Pieza 4">
+        </div>
+        <div class="catalog-item">
+            <img src="https://def-live.cdn.aboutyou.cloud/images/dd07d684ff1462ef93e56336928b8db6.jpg?width=596&height=832&quality=75" alt="Pieza 5">
+        </div>
+        <div class="catalog-item">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSbq_NJdBKwXP8x5fwFBr8Insl2BQnwBmAxgtllS641EWy5nRQwt0joykE914qGRs78Kzg7GTfR1ihbCt9ilspQUQjZVGrbxI3a9RXCqrYuIYCbEKJ4V8I9&usqp=CAc" alt="Pieza 6">
+        </div>
+    </div>
+    <div class="load-more">
+        <div class="load-more" style="margin-top: 20px;">
+            <button class="load-more-button" style="background-color: #4CAF50; color: white; padding: 8px; border: none; border-radius: 4px; cursor: pointer;">
+                Load More
+            </button>
+        </div>
+    </div>
+</body>
+</html>

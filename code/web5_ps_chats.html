@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes Asignados</title>
+    <style>
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #cce6ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: #4a4949;
+        }
+
+        .client-block {
+            width: 60%; 
+            display: flex;
+            background-color: white;
+            border: 1px solid #999;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f5f5f5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .client-info {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    {% for nif, client_data in client_dict.items() %}
+    <div class="client-block clearfix">
+        <div class="client-info">
+            <h3>{{ client_data['name'] }} {{ client_data['surname'] }}</h3>
+            <button onclick="location.href='/chat/{{ nif }}'">Chat</button>
+        </div>
+    </div>
+    {% endfor %}
+</body>
+</html>
+
+

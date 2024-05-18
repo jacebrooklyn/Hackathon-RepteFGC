@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Sign In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Poppins, sans-serif;
+            padding: 50px;
+            color: #4a4949; 
+        }
+
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 50px;
+            background-color: #edd3ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            text-align: center;
+            color: #4a4949; 
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a4949; 
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc; 
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #008CBA; 
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            background-color: #005f7f; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Client Sign In</h1>
+    <form action="/signin_3_cl" method="post">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" name="height" required><br><br>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" required><br><br>
+
+        <label for="hair_color">Hair Color:</label>
+        <input type="text" id="hair_color" name="hair_color" required><br><br>
+
+        <label for="eye_color">Eye Color:</label>
+        <input type="text" id="eye_color" name="eye_color" required><br><br>
+
+        <label for="skin_tone">Skin Tone:</label>
+        <input type="text" id="skin_tone" name="skin_tone" required><br><br>
+
+        <label for="shirt_size">Shirt Size:</label>
+        <input type="text" id="shirt_size" name="shirt_size" required><br><br>
+
+        <label for="pant_size">Pant Size:</label>
+        <input type="text" id="pant_size" name="pant_size" required><br><br>
+
+        <label for="shoe_size">Shoe Size:</label>
+        <input type="number" id="shoe_size" name="shoe_size" required><br><br>
+
+        <label for="description">Style description:</label>
+        <input type="text" id="description" name="description" required><br><br>
+
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 20px; 
+            padding: 0;
+            background-color: #ffd3f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: #4a4949;
+        }
+
+        header {
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #fcade8;
+            padding: 1em;
+            width: 100%; 
+            box-sizing: border-box; 
+        }
+
+        nav a {
+            color: #4a4949;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f9f1ff;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .grid-item {
+            background-color: #fcade8;
+            padding: 20px;
+            font-size: 18px; 
+            text-align: center;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome!</h1>
+        <h2>Home page - CLIENT</h2>
+    </header>
+
+    <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#comanda">Realitzar comanda</a>
+        <a href="#comandes">Les meves comandes</a>
+        <a href="#contacte">Contacte</a>
+    </nav>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/06/01/16540781784837.jpg">
+                <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/06/01/16540781784837.jpg" alt="Imatge 1">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.instyle.es/medio/2018/11/16/como-combinar-negro-y-azul-marino_d417c971_900x1350.jpg">
+                <img src="https://www.instyle.es/medio/2018/11/16/como-combinar-negro-y-azul-marino_d417c971_900x1350.jpg" alt="Imatge 2">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.clara.es/medio/2021/08/23/30-looks-copiar-septiembre-influencers_6c94ca2d_1280x1828.jpg">
+                <img src="https://www.clara.es/medio/2021/08/23/30-looks-copiar-septiembre-influencers_6c94ca2d_1280x1828.jpg" alt="Imatge 3">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.clara.es/medio/2021/09/29/looks-para-copiar-en-octubre_61511d37_1280x1828.jpg">
+                <img src="https://www.clara.es/medio/2021/09/29/looks-para-copiar-en-octubre_61511d37_1280x1828.jpg" alt="Imatge 4">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://hips.hearstapps.com/hmg-prod/images/looks-para-entretiempo-3-1650454785.jpg">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/looks-para-entretiempo-3-1650454785.jpg" alt="Imatge 5">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="https://phantom-elmundo.unidadeditorial.es/1afd9c38df2e68400d5f4496415ced41/crop/0x0/2573x3721/resize/640/assets/multimedia/imagenes/2022/01/13/16420774488169.jpg">
+                <img src="https://phantom-elmundo.unidadeditorial.es/1afd9c38df2e68400d5f4496415ced41/crop/0x0/2573x3721/resize/640/assets/multimedia/imagenes/2022/01/13/16420774488169.jpg" alt="Imatge 6">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

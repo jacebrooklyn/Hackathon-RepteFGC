@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Shopper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            font-family: Poppins, sans-serif;
+            padding: 50px;
+            color: #4a4949; 
+        }
+        p {
+            line-height: 2em;
+        }
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 50px;
+            background-color: #edd3ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            text-align: center;
+            color: #4a4949; 
+        }
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a4949; 
+        }
+
+        input[type="text"],
+        input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc; 
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4a4b4b; 
+            color: #dddddd;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a0a0a0; 
+        }
+
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO MY PERSONAL SHOPPER!</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/2649/2649383.png" alt="Imagen" width="180">
+    <br>
+    <h2>Making things easier</h2>
+    <p>Don't know how to combine or don't have time? We'll help you! The easiest place to shop with the expert guidance of our top advisers.</p>
+    <br>
+    <h2>Get the latest looks</h2>
+    <p>Elevate your style with the hottest looks meticulously curated just for you</p>
+    <br>
+    <br>
+    <form action="/check_nif" method="post">
+        <label for="nif">Enter your NIF (DNI):</label>
+        <input type="text" id="nif" name="nif" required><br><br>
+        <input type="submit" value="Continue">
+    </form>
+</body>
+<style>
+    body {
+        font-family: Poppins, sans-serif;
+        margin: 30px 100px 100px 100px;
+        background-color: #e6d4fd;
+    }
+    header img {
+        width: 30%;
+        height: auto;
+    }
+</style>
+</html>
