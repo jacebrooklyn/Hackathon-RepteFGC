@@ -28,8 +28,8 @@ La màquina serveix per indicar de forma simple què han de fer. <br/>
 - En cas d'estar d'acord amb l'estat dels serveis de l'estació inicial i final, se selecciona l'estació. A continuació, la màquina demana l'edat i marcar alguns paràmetres (quantitat de viatges que es volen fer, discapacitat, família nombrosa, etc.) per poder mostrar el bitllet més adequat per l'usuari.
 - Es contempla la posssibilitat que el terra tingui línies dibuixades, amb colors, que guiin l'usuari fins la via corresponent.
 - Un cop l'usuari ha introduit les dades, s'imprimeix el bitllet i, addicionalment, un paper amb el tren que ha d'agafar l'usuari, la via on es troba i el color de línia que ha de seguir.
-
-
+- L'usuari puja al tren i baixa a l'estació final.
+- Quan l'usuari arriba a l'estació, disposa d'una màquina (o persona?) que li mostra com sortir de l'estació, on son (lloc), com arribar al destí final.
 
 
 
