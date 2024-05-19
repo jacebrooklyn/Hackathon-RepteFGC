@@ -97,14 +97,29 @@
 </head>
 <body>
     <h1>Heu seleccionat l'estació destí: Muntaner</h1>
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/482/482846.png" alt="Imagen" width="110">
+        <img src="https://cdn-icons-png.flaticon.com/512/5974/5974771.png" alt="Imagen" width="70">
+        <p>Ascensor</p>
+    </div>
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/1039/1039484.png" alt="Imagen" width="110">
+        <img src="https://cdn-icons-png.flaticon.com/512/5974/5974771.png" alt="Imagen" width="70">
+        <p>Escales mecaniques</p>
+    </div>
+    <div class="image-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/157/157831.png" alt="Imagen" width="110">
+        <img src="https://cdn-icons-png.flaticon.com/512/5974/5974771.png" alt="Imagen" width="70">
+        <p>Servei</p>
+    </div>
     <div>
         <br/>
-        <p>En cas de ser correcte prém el botó verd</p>
+        <p>En cas d'acceptar les condicions de l'estació prém el botó verd</p>
         <p>En cas contrari, prém el botó vermell</p>
     </div>
-    <form action="/web2" method="post">
-        <button type="submit" class="button button-accept" name="acceptar">✔</button>
-        <button type="submit" class="button button-cancel" name="cancelar">✘</button>
+    <form action="/check_estacio" method="post">
+        <button type="submit" class="button button-accept">✔</button>
+        <button type="button" class="button button-cancel" onclick="window.location.href='/'">✘</button>
     </form>
 </body>
 </html>
