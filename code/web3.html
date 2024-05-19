@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informació del següent tren</title>
-    <script>
-        function redirectToPage() {
-            window.location.href = "/Users/fiona/Desktop/hackazon/FGC/templates/web4.html"; 
-        }
-        setTimeout(redirectToPage, 7000);
-    </script>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
         h1 {
@@ -108,6 +102,9 @@
         </div>
         <div class="direction">
             <strong>Direcció:</strong> Sarrià
+        </div>
+        <div>
+            <form action="/web4" method="post"></form>
         </div>
     </form>
     </div>
