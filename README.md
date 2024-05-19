@@ -1,6 +1,6 @@
-# Hackathon-RepteFGC
+# Hackathon: Repte FGC
 
-Aquest repositori conté un seguit de documents respecte la investigació de la mobilitat inclusiva a FGC.
+Aquest repositori conté un seguit de documents respecte a la investigació de la mobilitat inclusiva a FGC.
 <br />
 
 ### **Problema** 
