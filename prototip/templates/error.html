@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Poppins, sans-serif;
+            padding: 10px;
+            color: #4a4949; 
+        }
+
+        p {
+            text-align: center;
+            font-family: Poppins, sans-serif;
+            color: #4a4949; 
+        }
+        
+        p {
+            line-height: 2em;
+        }
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a4949; 
+        }
+
+
+        input[type="text"],
+        input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc; 
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+
+        input[type="submit"] {
+            background-color: #95D602; 
+            color: #ffff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #95D602; 
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Assegura que el cos ocupa tota l'alçada de la pantalla */
+            margin: 0;
+            font-family: Poppins, sans-serif;
+            background-color: #fdf8ee;
+            text-align: center;
+            flex-direction: column; /* Col·loca els elements en columna */
+        }
+    </style>
+</head>
+<body>
+    <h1>Error</h1>
+    <p>La parada indicada no existeix</p>
+    <br>
+    <br>
+    <form action="/tornar_inici" method="post">
+        <input type="submit" value="Tornar enrere">
+    </form>
+</body>
+<style>
+    body {
+        font-family: Poppins, sans-serif;
+        margin: 30px 100px 100px 100px;
+        background-color: #fdf8ee;
+        text-align: center;
+    }
+</style>
+</html>

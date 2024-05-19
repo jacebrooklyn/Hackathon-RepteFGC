@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estat estació destí</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            font-family: Poppins, sans-serif;
+            padding: 50px;
+            color: #4a4949; 
+        }
+        p {
+            line-height: 2em;
+        }
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 20px;
+            background-color: #fdf8ee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            text-align: center;
+            color: #4a4949; 
+        }
+        form {
+            text-align: center;
+            margin-top: 30px;
+            display: flex;
+            gap: 40px; 
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a4949; 
+        }
+
+        .button {
+            padding: 10px;
+            border-radius: 50%; 
+            border: none;
+            width: 100px; 
+            height: 100px;
+            cursor: pointer;
+            display: inline-block;
+            color: #ffffff;
+            font-size: 40px;
+            text-align: center;
+            line-height: 80px; 
+        }
+
+        .button-accept {
+            background-color: #95D602; 
+        }
+
+        .button-accept:hover {
+            background-color: #85c300; 
+        }
+
+        .button-cancel {
+            background-color: #f44336; 
+        }
+
+        .button-cancel:hover {
+            background-color: #d32f2f; 
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: flex-start; 
+            align-items: center; 
+            margin-bottom: 20px;
+            width: 100%; 
+            margin-left: 300px; 
+        }
+
+        .image-container img {
+            margin-right: 50px; 
+            vertical-align: middle;
+        }
+
+        .image-container p {
+            margin: 0;
+        }
+
+        .image-container + div {
+            margin-top: 30px;
+        }
+
+        div > p {
+            margin: 0; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Heu seleccionat l'estació destí: Muntaner</h1>
+    <div>
+        <br/>
+        <p>En cas de ser correcte prem el botó verd</p>
+        <p>En cas contrari, prem el botó vermell</p>
+    </div>
+    <form action="/web2" method="post">
+        <button type="submit" class="button button-accept" name="acceptar">✔</button>
+        <button type="submit" class="button button-cancel" name="cancelar">✘</button>
+    </form>
+</body>
+</html>

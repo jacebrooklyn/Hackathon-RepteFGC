@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ferrocarrils de la Generalitat de Catalunya FGC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            font-family: Poppins, sans-serif;
+            padding: 50px;
+            color: #4a4949; 
+        }
+        p {
+            line-height: 2em;
+        }
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 20px;
+            background-color: #edd3ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            text-align: center;
+            color: #4a4949; 
+        }
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a4949; 
+        }
+
+        input[type="text"],
+        input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc; 
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #95D602; 
+            color: #ffff;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #95D602; 
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Benvingut a FGC </h1>
+    <img src="https://www.fgc.cat/wp-content/uploads/2020/06/ilustracion-tren-arboles.png" alt="Imagen" width="180">
+    <br>
+    <h2>Facilitant la mobilitat</h2>
+    <p>No saps arribar al teu destí? <br> Selecciona'l i et mostrem la ruta.</p>
+    <br>
+    <form action="/check_estacio" method="post">
+        <label for="estacio">Introdueix el destí on vols arribar:</label><br>
+        <input type="text" id="estacio" name="estacio" required><br><br>
+        <input type="submit" value="Continuar">
+    </form>
+</body>
+<style>
+    body {
+        font-family: Poppins, sans-serif;
+        margin: 30px 100px 100px 100px;
+        background-color: #fdf8ee;
+    }
+    header img {
+        width: 30%;
+        height: auto;
+    }
+</style>
+</html>
