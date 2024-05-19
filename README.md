@@ -13,5 +13,5 @@ Es proposa instal·lar pantalles interactives a totes les estacions de FGC per p
 Un cop decidida la destinació, la pantalla mostrarà i imprimirà un tiquet amb informació sobre el tren que han d'agafar, incloent-hi l'hora de sortida, la via i la direcció. A més, es vol implementar una guia visual al terra de les estacions, pintant línies de colors segons el tren corresponent. El tiquet també indicarà el color de la línia que l'usuari ha de seguir per arribar a la seva via.
 <br /> <br />
 
-### **Col·lectius beneficiants** 
+### **Col·lectius beneficiats** 
 Aquesta interfície senzilla pot beneficiar un ampli conjunt de persones, com ara la gent gran que necessita instruccions clares per arribar al tren o informació rellevant sobre l'estació de destí. També pot ser molt útil per a persones que utilitzen els FGC per primera vegada i no coneixen l'entorn, com ara turistes. En realitat, aquestes pantalles poden beneficiar tothom, no només un col·lectiu concret, ja que proporcionaran informació d'interès sobre les estacions i no només indicacions per arribar a la via corresponent.
